@@ -1,12 +1,7 @@
 package space.luckycurve;
 
-import org.junit.jupiter.api.Test;
-import org.slf4j.helpers.MessageFormatter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 class SubscriptionSwitchEncodeApplicationTests {
-
-    @Test
-    public void test() {
-        System.out.println(MessageFormatter.format("{} {}", "hello", "world"));
-    }
 }
