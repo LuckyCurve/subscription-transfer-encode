@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: subscription-transfer-encode
   threads:
@@ -7,5 +9,3 @@ spring:
 
 server:
   port: 9088
-
-debug: true
